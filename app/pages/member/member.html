@@ -1,0 +1,6 @@
+<p>member works!</p>
+<button class="btn btn-primary" (click)="changePage1()">List Members</button>
+<button class="btn btn-primary" (click)="changePage2()">Member Profile</button>
+<button class="btn btn-primary" routerLink="/member/test" [queryParams]="{userId: 1}" >Test Param</button>
+<button class="btn btn-primary" (click)="sendParams()">Test QueryParams (Program)</button>
+<router-outlet></router-outlet>
